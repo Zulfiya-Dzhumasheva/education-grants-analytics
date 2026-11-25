@@ -31,7 +31,8 @@
   1. Как отличается доля отчислений (Dropout Rate) и конверсия в выпуск (Graduation Rate) у студентов с грантом и без гранта?
   2. Какие академические и демографические факторы сильнее всего влияют на итоговый балл 2-го семестра?
   3. Является ли разница в медианной успеваемости между грантниками и платниками статистически значимой?
-* **Источник и описание данных:** Открытый датасет [Predict Students' Dropout and Academic Success (Kaggle)](https://kaggle.com) (идентификатор для поиска на платформе: `adilshamim8/predict-students-dropout-and-academic-success`). Выборка содержит данные о `4 424` студентах бакалавриата и включает баллы при поступлении, наличие гранта, платежную дисциплину, результаты 1-го и 2-го семестров и итоговый статус обучения (`Graduate`, `Dropout`, `Enrolled`).
+* **Источник и описание данных:** Открытый датасет [Predict Students' Dropout and Academic Success (Kaggle)](https://www.kaggle.com/datasets/adilshamim8/predict-students-dropout-and-academic-success/data
+) (идентификатор для поиска на платформе: `adilshamim8/predict-students-dropout-and-academic-success`). Выборка содержит данные о `4 424` студентах бакалавриата и включает баллы при поступлении, наличие гранта, платежную дисциплину, результаты 1-го и 2-го семестров и итоговый статус обучения (`Graduate`, `Dropout`, `Enrolled`).
 
 ---
 
@@ -77,7 +78,7 @@
 
 ## 7. Инструкция по запуску проекта
 1. Склонируйте репозиторий или скачайте архив с файлами проекта.
-2. Скачайте исходный датасет с [Kaggle (Predict Students' Dropout and Academic Success)](https://kaggle.com) (идентификатор: `adilshamim8/predict-students-dropout-and-academic-success`), переименуйте CSV-файл в `students_data.csv` и поместите его в папку `data/`.
+2. Скачайте исходный датасет с [Kaggle (Predict Students' Dropout and Academic Success)](https://www.kaggle.com/datasets/adilshamim8/predict-students-dropout-and-academic-success/data) (идентификатор: `adilshamim8/predict-students-dropout-and-academic-success`), переименуйте CSV-файл в `students_data.csv` и поместите его в папку `data/`.
 3. Установите необходимые библиотеки:
    ```bash
    pip install -r requirements.txt
